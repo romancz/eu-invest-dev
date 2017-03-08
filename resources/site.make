@@ -21,7 +21,7 @@ projects[feeds_tamper][subdir] = "contrib"
 projects[feeds][tamper] = "1.1"
 
 projects[media_feeds][subdir] = "contrib"
-projects[media_feeds][version] = "2.0-dev"
+projects[media_feeds][version] = "2.x-dev"
 
 projects[entityreference_feeds][subdir] = "contrib"
 projects[entityreference_feeds][version] = "1.0-beta3"
