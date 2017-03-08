@@ -211,7 +211,7 @@ global $base_url;
   <a href="#top-page" class="btn-back-top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-
+  <div class="element-hidden">ECAS Login</div>
   <div id="layout-footer">
     <div class="container">
       <?php print $regions['footer']; ?>

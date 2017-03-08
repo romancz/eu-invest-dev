@@ -29,26 +29,6 @@ function invest_eu_feeds_feeds_tamper_default() {
   $feeds_tamper = new stdClass();
   $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
   $feeds_tamper->api_version = 2;
-  $feeds_tamper->id = 'project-banner-find_replace';
-  $feeds_tamper->importer = 'project';
-  $feeds_tamper->source = 'Banner';
-  $feeds_tamper->plugin_id = 'find_replace';
-  $feeds_tamper->settings = array(
-    'find' => 'https://',
-    'replace' => 'https://multisite:ec2012@',
-    'case_sensitive' => 0,
-    'word_boundaries' => 0,
-    'whole' => 0,
-    'regex' => FALSE,
-    'func' => 'str_ireplace',
-  );
-  $feeds_tamper->weight = 0;
-  $feeds_tamper->description = 'Find replace';
-  $export['project-banner-find_replace'] = $feeds_tamper;
-
-  $feeds_tamper = new stdClass();
-  $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
-  $feeds_tamper->api_version = 2;
   $feeds_tamper->id = 'project-documents-explode';
   $feeds_tamper->importer = 'project';
   $feeds_tamper->source = 'Documents';
@@ -61,26 +41,6 @@ function invest_eu_feeds_feeds_tamper_default() {
   $feeds_tamper->weight = 0;
   $feeds_tamper->description = 'Explode';
   $export['project-documents-explode'] = $feeds_tamper;
-
-  $feeds_tamper = new stdClass();
-  $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
-  $feeds_tamper->api_version = 2;
-  $feeds_tamper->id = 'project-documents-find_replace';
-  $feeds_tamper->importer = 'project';
-  $feeds_tamper->source = 'Documents';
-  $feeds_tamper->plugin_id = 'find_replace';
-  $feeds_tamper->settings = array(
-    'find' => 'https://',
-    'replace' => 'https://multisite:ec2012@',
-    'case_sensitive' => 0,
-    'word_boundaries' => 0,
-    'whole' => 0,
-    'regex' => FALSE,
-    'func' => 'str_ireplace',
-  );
-  $feeds_tamper->weight = 1;
-  $feeds_tamper->description = 'Find replace';
-  $export['project-documents-find_replace'] = $feeds_tamper;
 
   $feeds_tamper = new stdClass();
   $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
@@ -184,40 +144,6 @@ function invest_eu_feeds_feeds_tamper_default() {
   $feeds_tamper = new stdClass();
   $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
   $feeds_tamper->api_version = 2;
-  $feeds_tamper->id = 'project-visual-find_replace';
-  $feeds_tamper->importer = 'project';
-  $feeds_tamper->source = 'Visual';
-  $feeds_tamper->plugin_id = 'find_replace';
-  $feeds_tamper->settings = array(
-    'find' => 'https://',
-    'replace' => 'https://multisite:ec2012@',
-    'case_sensitive' => 0,
-    'word_boundaries' => 0,
-    'whole' => 0,
-    'regex' => FALSE,
-    'func' => 'str_ireplace',
-  );
-  $feeds_tamper->weight = 2;
-  $feeds_tamper->description = 'Find replace';
-  $export['project-visual-find_replace'] = $feeds_tamper;
-
-  $feeds_tamper = new stdClass();
-  $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
-  $feeds_tamper->api_version = 2;
-  $feeds_tamper->id = 'project-visual-rewrite';
-  $feeds_tamper->importer = 'project';
-  $feeds_tamper->source = 'Visual';
-  $feeds_tamper->plugin_id = 'rewrite';
-  $feeds_tamper->settings = array(
-    'text' => 'https://multisite:ec2012@webgate.ec.europa.eu/playground-multisite/euprojects/sites/euprojects/files/landscape-nature.jpg,https://multisite:ec2012@webgate.ec.europa.eu/playground-multisite/euprojects/sites/euprojects/files/music.jpg',
-  );
-  $feeds_tamper->weight = 1;
-  $feeds_tamper->description = 'Rewrite';
-  $export['project-visual-rewrite'] = $feeds_tamper;
-
-  $feeds_tamper = new stdClass();
-  $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
-  $feeds_tamper->api_version = 2;
   $feeds_tamper->id = 'project-visual-strtotime';
   $feeds_tamper->importer = 'project';
   $feeds_tamper->source = 'Visual';
@@ -260,26 +186,6 @@ function invest_eu_feeds_feeds_tamper_default() {
   $feeds_tamper->weight = 0;
   $feeds_tamper->description = 'Explode';
   $export['project_updates-documents-explode'] = $feeds_tamper;
-
-  $feeds_tamper = new stdClass();
-  $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
-  $feeds_tamper->api_version = 2;
-  $feeds_tamper->id = 'project_updates-documents-find_replace';
-  $feeds_tamper->importer = 'project_updates';
-  $feeds_tamper->source = 'Documents';
-  $feeds_tamper->plugin_id = 'find_replace';
-  $feeds_tamper->settings = array(
-    'find' => 'https://',
-    'replace' => 'https://multisite:ec2012@',
-    'case_sensitive' => 0,
-    'word_boundaries' => 0,
-    'whole' => 0,
-    'regex' => FALSE,
-    'func' => 'str_ireplace',
-  );
-  $feeds_tamper->weight = 1;
-  $feeds_tamper->description = 'Find replace';
-  $export['project_updates-documents-find_replace'] = $feeds_tamper;
 
   $feeds_tamper = new stdClass();
   $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
@@ -364,26 +270,6 @@ function invest_eu_feeds_feeds_tamper_default() {
   $feeds_tamper->weight = 1;
   $feeds_tamper->description = 'Explode';
   $export['project_updates-visuals-explode'] = $feeds_tamper;
-
-  $feeds_tamper = new stdClass();
-  $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
-  $feeds_tamper->api_version = 2;
-  $feeds_tamper->id = 'project_updates-visuals-find_replace';
-  $feeds_tamper->importer = 'project_updates';
-  $feeds_tamper->source = 'Visuals';
-  $feeds_tamper->plugin_id = 'find_replace';
-  $feeds_tamper->settings = array(
-    'find' => 'https://',
-    'replace' => 'https://multisite:ec2012@',
-    'case_sensitive' => 0,
-    'word_boundaries' => 0,
-    'whole' => 0,
-    'regex' => FALSE,
-    'func' => 'str_ireplace',
-  );
-  $feeds_tamper->weight = 0;
-  $feeds_tamper->description = 'Find replace';
-  $export['project_updates-visuals-find_replace'] = $feeds_tamper;
 
   return $export;
 }

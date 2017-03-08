@@ -22,7 +22,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -43,7 +43,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -64,7 +64,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -89,7 +89,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -111,7 +111,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -133,7 +133,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -155,7 +155,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -176,7 +176,7 @@ function invest_eu_core_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_cta_link',
     'indexes' => array(),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'link',
     'settings' => array(
       'attributes' => array(
@@ -210,7 +210,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -235,7 +235,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'file',
     'settings' => array(
       'display_default' => 0,
@@ -257,7 +257,7 @@ function invest_eu_core_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_eu_funding',
     'indexes' => array(),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'number',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -274,7 +274,7 @@ function invest_eu_core_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_external_links',
     'indexes' => array(),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'link',
     'settings' => array(
       'attributes' => array(
@@ -308,7 +308,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'file',
     'settings' => array(
       'display_default' => 0,
@@ -337,7 +337,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'value',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'field_collection',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -361,7 +361,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -382,7 +382,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -407,7 +407,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -429,7 +429,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'mediafield',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -450,7 +450,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -471,7 +471,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -493,7 +493,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'target_id',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'entityreference',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -529,7 +529,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -551,7 +551,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -569,7 +569,7 @@ function invest_eu_core_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_project_location',
     'indexes' => array(),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'addressfield',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -590,7 +590,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'target_id',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'entityreference',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -626,7 +626,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'tid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'taxonomy',
     'settings' => array(
       'allowed_values' => array(
@@ -650,7 +650,7 @@ function invest_eu_core_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_source_nid',
     'indexes' => array(),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'number',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -671,7 +671,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -689,7 +689,7 @@ function invest_eu_core_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_timeframe',
     'indexes' => array(),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'date',
     'settings' => array(
       'cache_count' => 4,
@@ -723,7 +723,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'mediafield',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -744,7 +744,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
@@ -769,7 +769,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'format',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'text',
     'settings' => array(
       'entity_translation_sync' => FALSE,
@@ -791,7 +791,7 @@ function invest_eu_core_field_default_field_bases() {
         0 => 'fid',
       ),
     ),
-    'locked' => 0,
+    'locked' => 1,
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,

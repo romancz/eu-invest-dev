@@ -109,15 +109,6 @@ function invest_eu_permissions_user_default_permissions() {
     'module' => 'dashboard',
   );
 
-  // Exported permission: 'access devel information'.
-  $permissions['access devel information'] = array(
-    'name' => 'access devel information',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'devel',
-  );
-
   // Exported permission: 'access ecas import users function'.
   $permissions['access ecas import users function'] = array(
     'name' => 'access ecas import users function',
@@ -275,15 +266,6 @@ function invest_eu_permissions_user_default_permissions() {
     'module' => 'chr',
   );
 
-  // Exported permission: 'administer ckeditor_lite'.
-  $permissions['administer ckeditor_lite'] = array(
-    'name' => 'administer ckeditor_lite',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'ckeditor_lite',
-  );
-
   // Exported permission: 'administer coffee'.
   $permissions['administer coffee'] = array(
     'name' => 'administer coffee',
@@ -392,15 +374,6 @@ function invest_eu_permissions_user_default_permissions() {
     'module' => 'feature_set',
   );
 
-  // Exported permission: 'administer features'.
-  $permissions['administer features'] = array(
-    'name' => 'administer features',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'features',
-  );
-
   // Exported permission: 'administer feeds'.
   $permissions['administer feeds'] = array(
     'name' => 'administer feeds',
@@ -500,15 +473,6 @@ function invest_eu_permissions_user_default_permissions() {
     'module' => 'image',
   );
 
-  // Exported permission: 'administer jquery update'.
-  $permissions['administer jquery update'] = array(
-    'name' => 'administer jquery update',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'jquery_update',
-  );
-
   // Exported permission: 'administer js_injector'.
   $permissions['administer js_injector'] = array(
     'name' => 'administer js_injector',
@@ -569,9 +533,7 @@ function invest_eu_permissions_user_default_permissions() {
   // Exported permission: 'administer modules'.
   $permissions['administer modules'] = array(
     'name' => 'administer modules',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'system',
   );
 
@@ -678,15 +640,6 @@ function invest_eu_permissions_user_default_permissions() {
   // Exported permission: 'administer site configuration'.
   $permissions['administer site configuration'] = array(
     'name' => 'administer site configuration',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'system',
-  );
-
-  // Exported permission: 'administer software updates'.
-  $permissions['administer software updates'] = array(
-    'name' => 'administer software updates',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -1447,15 +1400,6 @@ function invest_eu_permissions_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
-  // Exported permission: 'execute php code'.
-  $permissions['execute php code'] = array(
-    'name' => 'execute php code',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'devel',
-  );
-
   // Exported permission: 'flush caches'.
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
@@ -1463,15 +1407,6 @@ function invest_eu_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'admin_menu',
-  );
-
-  // Exported permission: 'generate features'.
-  $permissions['generate features'] = array(
-    'name' => 'generate features',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'features',
   );
 
   // Exported permission: 'import project feeds'.
@@ -1494,15 +1429,6 @@ function invest_eu_permissions_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'feeds',
-  );
-
-  // Exported permission: 'manage features'.
-  $permissions['manage features'] = array(
-    'name' => 'manage features',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'features',
   );
 
   // Exported permission: 'moderate content from needs_review to validated'.
@@ -1609,15 +1535,6 @@ function invest_eu_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'tmgmt_local',
-  );
-
-  // Exported permission: 'rename features'.
-  $permissions['rename features'] = array(
-    'name' => 'rename features',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'features',
   );
 
   // Exported permission: 'schedule (un)publishing of nodes'.
@@ -1729,15 +1646,6 @@ function invest_eu_permissions_user_default_permissions() {
       'editorial team member' => 'editorial team member',
     ),
     'module' => 'tmgmt',
-  );
-
-  // Exported permission: 'switch users'.
-  $permissions['switch users'] = array(
-    'name' => 'switch users',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'devel',
   );
 
   // Exported permission: 'tamper project'.
