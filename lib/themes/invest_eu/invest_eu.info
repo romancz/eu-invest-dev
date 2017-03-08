@@ -1,0 +1,29 @@
+name = Invest EU
+description = Custom theme for Invest EU site.
+core = 7.x
+base theme = ec_resp
+multisite_version = "2.1"
+php = "5.5.3"
+
+stylesheets[all][] = "css/styles.css"
+#stylesheets[print][] = "css/print.css"
+
+scripts[] = "js/slick.min.js"
+scripts[] = "js/scripts.js"
+
+regions[header_top] = "Header Top"
+regions[header_right] = "Header Right"
+
+regions[featured] = "Featured"
+regions[tools] = "Tools"
+regions[help] = "Help"
+
+regions[sidebar_left] = "Sidebar Left"
+regions[sidebar_right] = "Sidebar Right"
+
+regions[content_top] = "Content Top"
+regions[content] = "Content"
+regions[content_right] = "Content Right"
+regions[content_bottom] = "Content Bottom"
+
+regions[footer] = "Footer"

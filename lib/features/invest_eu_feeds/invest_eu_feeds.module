@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Invest EU Feeds feature.
+ */
+
+include_once 'invest_eu_feeds.features.inc';
