@@ -530,13 +530,6 @@ function invest_eu_permissions_user_default_permissions() {
     'module' => 'menu_token',
   );
 
-  // Exported permission: 'administer modules'.
-  $permissions['administer modules'] = array(
-    'name' => 'administer modules',
-    'roles' => array(),
-    'module' => 'system',
-  );
-
   // Exported permission: 'administer nexteuropa_piwik'.
   $permissions['administer nexteuropa_piwik'] = array(
     'name' => 'administer nexteuropa_piwik',
@@ -586,9 +579,7 @@ function invest_eu_permissions_user_default_permissions() {
   // Exported permission: 'administer print'.
   $permissions['administer print'] = array(
     'name' => 'administer print',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
+    'roles' => array(),
     'module' => 'print',
   );
 
